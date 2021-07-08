@@ -1,0 +1,34 @@
+For "MathStuff.py".
+    0a. This is where all the calculators are kept, each one is a separate
+        function.
+    0b. Each one can print its answer or return its answer to be used
+        elsewhere.
+
+For "using_MathStuff.py".
+    1a. This program gives a demonstration of how to use each calculator.
+
+For "MathStuff_GUI.py".
+    2a. This program provides a GUI for using the calculators in
+        "MathStuff.py".
+    2b. This progrom is generally not as useful as calling one of the
+        functions like in "using_MathStuff.py".
+    
+For "GUICreator.py".
+    3a. This is how the buttons are created. Every pygame rectangle is called
+        a button.
+
+    3b. The StaticButton draws a rectangle, with the option of drawing another
+        rectangle behind it to make a border.
+
+    3c. The DynamicButton draws a rectangle, with the option of drawing
+        another rectangle behind it to make a border.
+      3c. You can give a different value for the color variables each time the
+          draw function is called.
+
+    3d. The StaticTextButton draws a rectangle and text in front of it, with
+        the option of drawing another rectangle behind it to make a border.
+
+    3e. The DynamicTextButton draws a rectangle and text in front of it, with
+        the option of drawing another rectangle behind it to make a border.
+      3e. You can give a different value for the color variables each time the
+          draw function is called.
